@@ -1,0 +1,101 @@
+body{
+    height: 100%;
+    margin: 0%;
+    background-image: linear-gradient(to left bottom, #4740e9, #6c3beb, #8933ec, #a427ec, #bc12eb);
+}
+
+html{
+    height: 100%;
+}
+
+.navbar-brand {
+    font-family:'Permanent Marker',
+    cursive;
+    
+}
+
+
+.nav-item{
+    font-family: 'Roboto Condensed',
+    sans-serif;
+    font-size: 1.4rem;
+    margin: 0% 1%;
+}
+
+.header1{
+    text-align: center;
+    margin:5% 0% 0% 0%;
+    padding-bottom: 0%;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 15rem;
+
+}
+.header2{
+    text-align: center;
+    margin: 0%;
+    top:10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+.butn {
+    text-align: center;
+    display: block;
+    margin:5% 35% 5% 45%;
+    -moz-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    background-color: #08f527;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-left-radius: 20px;
+    text-indent: 0px;
+    border: 1px solid #08f527;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #87d439;
+}
+
+.butn:hover {
+    background-color: #80f288;
+}
+
+.butn:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.playlist{
+    border: 1px black;
+}
+
+
+h4{
+    font-size: 13px;
+    margin: auto;
+    text-align: center;
+}
+/* 
+font-family: 'Permanent Marker', cursive;
+font-family: 'East Sea Dokdo', cursive;
+font-family: 'Roboto Condensed', sans-serif; */

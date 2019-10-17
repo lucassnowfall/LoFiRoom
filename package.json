@@ -1,0 +1,19 @@
+{
+  "name": "lofi-room",
+  "version": "1.0.0",
+  "description": "My website that i created to practice using API",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "jshint": "^2.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lofi"
+  ],
+  "author": "Lucas Snowfall",
+  "license": "ISC"
+}
