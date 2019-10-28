@@ -3,9 +3,15 @@ font-family: 'Source Code Pro', monospace;
 font-family: 'Noto Serif JP', serif; */
 
  body{
-   background: rgb(37, 173, 175);
-   background: linear-gradient(0deg, rgba(37, 173, 175, 1) 0%, rgba(39, 15, 73, 1) 100%);
+    margin: 0;
+    width: 100%;
+    background: rgb(37, 173, 175);
+    background: linear-gradient(0deg, rgba(37, 173, 175, 1) 0%, rgba(39, 15, 73, 1) 100%);
 } 
+
+.navbar{
+    width: 100%;
+}
 
 .nav-link{
     color: whitesmoke;
@@ -22,9 +28,9 @@ font-family: 'Noto Serif JP', serif; */
 
 
 .header1{
-    color: whitesmoke;
+    color: #f8f8f8;
     font-family:'Libre Barcode 39 Text', cursive;
-    font-size: 10rem;
+    font-size: 12rem;
     font-weight: 400;
     margin: 10% 0% 0% 0%;
     text-align: center;
@@ -32,41 +38,97 @@ font-family: 'Noto Serif JP', serif; */
 
 
 .header2{
-    color: whitesmoke;
-    font-family:'Noto Serif JP', serif;
-    font-size: 3rem;
-    margin-top: 5%;
+    color: #6ce2b3;
+    font-family:'Source Code Pro',
+    serif;
+    font-size: 2.5rem;
+    margin-top: 3%;
     text-align: center;
 }
 
 .wrapper {
     margin-top: 5%;
+    margin-bottom: 10%;
     text-align: center;
 
 }
 
-.button{
-    font-size: 1rem;
-    
+.button {
+    font-family: Georgia;    background-color: unset;
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 60px;
+    padding: 10px 20px 20px 20px;
+    text-decoration: none;
 }
 
 .header3{
     color: whitesmoke;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Source Code Pro', serif;
+    font-weight: 800;
     margin: 5%;
     text-align: center;   
 }
 
+.videotitle{
+    color: wheat;
+    font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
 
 .videos{
    text-align: center;
    margin-top: 55px;
 }
 
+.about{
+    margin-bottom: 5%;
+}
 .aboutp{
     color: turquoise;
     font-family:'Source Code Pro', monospace;
     font-size: 2rem;
     text-align: center;
 
+}
+
+.soundcloudwrap{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.footer{
+    background-color: #494ca2;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+}
+span{
+    font-family: 'Source Code Pro',
+    monospace;
+    font-weight: 600;
+}
+.icons{
+    color: white;
+    text-align: center;
+    margin: 3% 1%;
+    scroll-padding-bottom: 5%;
+}
+
+.icons:hover{
+    color:yellow;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Noto Serif JP',
+    serif;
 }
