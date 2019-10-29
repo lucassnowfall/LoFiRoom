@@ -207,7 +207,12 @@ iframe{
         
     }
 
+   .icons{
+       margin-top: 3%;
+   }
+
     .social {
+        margin-top: 3%;
         font-size: 1rem;
     }
 
