@@ -150,6 +150,7 @@ iframe{
 @media (max-width: 775px) {
     .header1 {
         font-size: 6rem;
+        margin-bottom: 5%;
     }
 
     .videotitle {
@@ -182,6 +183,7 @@ iframe{
 @media (max-width: 415px) {
     .header1 {
         font-size: 3rem;
+        margin-bottom: 5%;
     }
 
     #playbutton{
